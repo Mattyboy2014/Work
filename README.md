@@ -1,3 +1,9 @@
+Open file = Task_file.py
+
+Each task in the Task_file.py document is broken down into task + number
+
+Below you will see what was the purpose of each task
+
 Task 1 Loading 7 text files into python
 
 Task 2 Outputting 1 text file from 7 text files
