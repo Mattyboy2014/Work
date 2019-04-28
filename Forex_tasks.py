@@ -30,20 +30,11 @@ frame.to_csv(path_1+"/forextest1.txt",index=None,sep='~')#Output's the dataframe
 
 #Task3
 
-pd.set_option('expand_frame_Repr',False)
 
-path = r'C:\Users\Mat\Desktop\Learning_Python\forextest1.txt' #Location of Forex_1 file
-allfiles = glob.glob(path)  #Loads the text file into my dataframe.
+file_ = r'C:\Users\Mat\Desktop\Learning_Python\forextest1.txt' #Location of Forex_1 file
+ 
 
-frame = pd.DataFrame()  #Frame of dataframe
-
-list_=[]
-
-for file_ in allfiles:
-    df = pd.read_csv(file_,index_col=None,sep='~',header=0)
-    list_.append(df) #Tells python how to read my files in the dataframe.
-    
-frame = pd.concat(list_)
+df = pd.read_csv(file_,index_col=None,sep='~',header=0)#Reads the file and displays file in python.
 
 frame
     
