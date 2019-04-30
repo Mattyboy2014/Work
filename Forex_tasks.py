@@ -34,7 +34,7 @@ frame.to_csv(path_1+"/forextest1.txt",index=None,sep='~')#Output's the dataframe
 file_ = r'C:\Users\Mat\Desktop\Learning_Python\forextest1.txt' #Location of Forex_1 file
  
 
-df = pd.read_csv(file_,index_col=None,sep='~',header=0)#Reads the file and displays file in python.
+frame = pd.read_csv(file_,index_col=None,sep='~',header=0)#Reads the file and displays file in python.
 
 frame
     
