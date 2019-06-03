@@ -17,3 +17,7 @@ Task 5 Removing dublicates from 3 column dataframe
 Task 6 Create A new column called created_date thats shows the date of the tests
 
 Task 7 Create A new column that flags 1 if Rate_Symbol = 'Eur' and 0 if it doesnt 
+
+Task 8 Create A new dataframe called flagged where the output shows where the condition is flag = 1
+
+Task 9 Merge the new created flagged dataframe with the original dataframe called frame by Rate_Symbol.
