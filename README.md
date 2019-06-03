@@ -1,4 +1,4 @@
-Open file = Task_file.py
+Open file = Forex_tasks.py
 
 Each task in the Task_file.py document is broken down into task + number
 
